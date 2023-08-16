@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9226AE062A681B1E005E6126 /* CatGifsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226AE052A681B1E005E6126 /* CatGifsApp.swift */; };
+		9226AE0A2A681B1F005E6126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9226AE092A681B1F005E6126 /* Assets.xcassets */; };
+		9226AE0D2A681B1F005E6126 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9226AE0C2A681B1F005E6126 /* Preview Assets.xcassets */; };
+		9226AE152A681EFF005E6126 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 9226AE142A681EFF005E6126 /* ComposableArchitecture */; };
+		9226AE182A69698A005E6126 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 9226AE172A69698A005E6126 /* Moya */; };
+		9226AE1B2A6969A7005E6126 /* Moya+Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226AE1A2A6969A7005E6126 /* Moya+Concurrency.swift */; };
+		9226AE202A696C61005E6126 /* CataasAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226AE1F2A696C61005E6126 /* CataasAPI.swift */; };
+		9226AE222A696E43005E6126 /* CatsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226AE212A696E43005E6126 /* CatsResponse.swift */; };
+		9226AE242A7BDF91005E6126 /* CatCollectionFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226AE232A7BDF91005E6126 /* CatCollectionFeature.swift */; };
+		9226AE262A7BEB0A005E6126 /* CatCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226AE252A7BEB0A005E6126 /* CatCollectionView.swift */; };
+		9226AE2C2A83C722005E6126 /* FLAnimatedImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9226AE2B2A83C722005E6126 /* FLAnimatedImage */; };
+		9226AE2F2A83C81C005E6126 /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226AE2E2A83C81C005E6126 /* GifView.swift */; };
+		9226AE322A83CEF6005E6126 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 9226AE312A83CEF6005E6126 /* Nuke */; };
+		9226AE362A851780005E6126 /* CatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226AE352A851780005E6126 /* CatModel.swift */; };
+		9226AE392A852C2D005E6126 /* CatDetailFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226AE382A852C2D005E6126 /* CatDetailFeature.swift */; };
+		9226AE3B2A852C38005E6126 /* CatDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226AE3A2A852C38005E6126 /* CatDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9226AE022A681B1E005E6126 /* CatGifs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatGifs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9226AE052A681B1E005E6126 /* CatGifsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatGifsApp.swift; sourceTree = "<group>"; };
+		9226AE092A681B1F005E6126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9226AE0C2A681B1F005E6126 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9226AE1A2A6969A7005E6126 /* Moya+Concurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Moya+Concurrency.swift"; sourceTree = "<group>"; };
+		9226AE1F2A696C61005E6126 /* CataasAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CataasAPI.swift; sourceTree = "<group>"; };
+		9226AE212A696E43005E6126 /* CatsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsResponse.swift; sourceTree = "<group>"; };
+		9226AE232A7BDF91005E6126 /* CatCollectionFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCollectionFeature.swift; sourceTree = "<group>"; };
+		9226AE252A7BEB0A005E6126 /* CatCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCollectionView.swift; sourceTree = "<group>"; };
+		9226AE2E2A83C81C005E6126 /* GifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifView.swift; sourceTree = "<group>"; };
+		9226AE352A851780005E6126 /* CatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatModel.swift; sourceTree = "<group>"; };
+		9226AE382A852C2D005E6126 /* CatDetailFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetailFeature.swift; sourceTree = "<group>"; };
+		9226AE3A2A852C38005E6126 /* CatDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9226ADFF2A681B1E005E6126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9226AE2C2A83C722005E6126 /* FLAnimatedImage in Frameworks */,
+				9226AE182A69698A005E6126 /* Moya in Frameworks */,
+				9226AE152A681EFF005E6126 /* ComposableArchitecture in Frameworks */,
+				9226AE322A83CEF6005E6126 /* Nuke in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9226ADF92A681B1E005E6126 = {
+			isa = PBXGroup;
+			children = (
+				9226AE042A681B1E005E6126 /* CatGifs */,
+				9226AE032A681B1E005E6126 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9226AE032A681B1E005E6126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9226AE022A681B1E005E6126 /* CatGifs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9226AE042A681B1E005E6126 /* CatGifs */ = {
+			isa = PBXGroup;
+			children = (
+				9226AE332A85175A005E6126 /* Domain */,
+				9226AE2D2A83C811005E6126 /* Util */,
+				9226AE1E2A696BD3005E6126 /* Network */,
+				9226AE1C2A696BBE005E6126 /* Scene */,
+				9226AE192A696990005E6126 /* Extension */,
+				9226AE052A681B1E005E6126 /* CatGifsApp.swift */,
+				9226AE092A681B1F005E6126 /* Assets.xcassets */,
+				9226AE0B2A681B1F005E6126 /* Preview Content */,
+			);
+			path = CatGifs;
+			sourceTree = "<group>";
+		};
+		9226AE0B2A681B1F005E6126 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9226AE0C2A681B1F005E6126 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9226AE192A696990005E6126 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9226AE1A2A6969A7005E6126 /* Moya+Concurrency.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9226AE1C2A696BBE005E6126 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				9226AE372A852C1F005E6126 /* CatDetail */,
+				9226AE1D2A696BC5005E6126 /* CatCollection */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		9226AE1D2A696BC5005E6126 /* CatCollection */ = {
+			isa = PBXGroup;
+			children = (
+				9226AE232A7BDF91005E6126 /* CatCollectionFeature.swift */,
+				9226AE252A7BEB0A005E6126 /* CatCollectionView.swift */,
+			);
+			path = CatCollection;
+			sourceTree = "<group>";
+		};
+		9226AE1E2A696BD3005E6126 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9226AE1F2A696C61005E6126 /* CataasAPI.swift */,
+				9226AE212A696E43005E6126 /* CatsResponse.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9226AE2D2A83C811005E6126 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9226AE2E2A83C81C005E6126 /* GifView.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		9226AE332A85175A005E6126 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				9226AE342A85176C005E6126 /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		9226AE342A85176C005E6126 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9226AE352A851780005E6126 /* CatModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9226AE372A852C1F005E6126 /* CatDetail */ = {
+			isa = PBXGroup;
+			children = (
+				9226AE382A852C2D005E6126 /* CatDetailFeature.swift */,
+				9226AE3A2A852C38005E6126 /* CatDetailView.swift */,
+			);
+			path = CatDetail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9226AE012A681B1E005E6126 /* CatGifs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9226AE102A681B1F005E6126 /* Build configuration list for PBXNativeTarget "CatGifs" */;
+			buildPhases = (
+				9226ADFE2A681B1E005E6126 /* Sources */,
+				9226ADFF2A681B1E005E6126 /* Frameworks */,
+				9226AE002A681B1E005E6126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatGifs;
+			packageProductDependencies = (
+				9226AE142A681EFF005E6126 /* ComposableArchitecture */,
+				9226AE172A69698A005E6126 /* Moya */,
+				9226AE2B2A83C722005E6126 /* FLAnimatedImage */,
+				9226AE312A83CEF6005E6126 /* Nuke */,
+			);
+			productName = CatGifs;
+			productReference = 9226AE022A681B1E005E6126 /* CatGifs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9226ADFA2A681B1E005E6126 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9226AE012A681B1E005E6126 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9226ADFD2A681B1E005E6126 /* Build configuration list for PBXProject "CatGifs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9226ADF92A681B1E005E6126;
+			packageReferences = (
+				9226AE132A681EFF005E6126 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				9226AE162A69698A005E6126 /* XCRemoteSwiftPackageReference "Moya" */,
+				9226AE2A2A83C722005E6126 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */,
+				9226AE302A83CEF6005E6126 /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
+			productRefGroup = 9226AE032A681B1E005E6126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9226AE012A681B1E005E6126 /* CatGifs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9226AE002A681B1E005E6126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9226AE0D2A681B1F005E6126 /* Preview Assets.xcassets in Resources */,
+				9226AE0A2A681B1F005E6126 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9226ADFE2A681B1E005E6126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9226AE362A851780005E6126 /* CatModel.swift in Sources */,
+				9226AE2F2A83C81C005E6126 /* GifView.swift in Sources */,
+				9226AE392A852C2D005E6126 /* CatDetailFeature.swift in Sources */,
+				9226AE242A7BDF91005E6126 /* CatCollectionFeature.swift in Sources */,
+				9226AE202A696C61005E6126 /* CataasAPI.swift in Sources */,
+				9226AE262A7BEB0A005E6126 /* CatCollectionView.swift in Sources */,
+				9226AE3B2A852C38005E6126 /* CatDetailView.swift in Sources */,
+				9226AE222A696E43005E6126 /* CatsResponse.swift in Sources */,
+				9226AE1B2A6969A7005E6126 /* Moya+Concurrency.swift in Sources */,
+				9226AE062A681B1E005E6126 /* CatGifsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9226AE0E2A681B1F005E6126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9226AE0F2A681B1F005E6126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9226AE112A681B1F005E6126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CatGifs/Preview Content\"";
+				DEVELOPMENT_TEAM = P5QSBGBP3C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.XWebKit.CatGifs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9226AE122A681B1F005E6126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CatGifs/Preview Content\"";
+				DEVELOPMENT_TEAM = P5QSBGBP3C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.XWebKit.CatGifs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9226ADFD2A681B1E005E6126 /* Build configuration list for PBXProject "CatGifs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9226AE0E2A681B1F005E6126 /* Debug */,
+				9226AE0F2A681B1F005E6126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9226AE102A681B1F005E6126 /* Build configuration list for PBXNativeTarget "CatGifs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9226AE112A681B1F005E6126 /* Debug */,
+				9226AE122A681B1F005E6126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9226AE132A681EFF005E6126 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.56.0;
+			};
+		};
+		9226AE162A69698A005E6126 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+		9226AE2A2A83C722005E6126 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Flipboard/FLAnimatedImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		9226AE302A83CEF6005E6126 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9226AE142A681EFF005E6126 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9226AE132A681EFF005E6126 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		9226AE172A69698A005E6126 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9226AE162A69698A005E6126 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		9226AE2B2A83C722005E6126 /* FLAnimatedImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9226AE2A2A83C722005E6126 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */;
+			productName = FLAnimatedImage;
+		};
+		9226AE312A83CEF6005E6126 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9226AE302A83CEF6005E6126 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9226ADFA2A681B1E005E6126 /* Project object */;
+}
